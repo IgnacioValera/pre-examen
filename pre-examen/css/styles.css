@@ -1,0 +1,32 @@
+body {
+    padding: 1rem;
+    /*16px*/
+    background-color: rgb(255, 255, 255);
+}
+
+/* p {
+    font-size: 0.5rem;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+} */
+
+.text-black {
+    color: black;
+    font-size: 12px;
+}
+
+.text-success {
+    color: chartreuse;
+    font-size: 12px;
+}
+
+#text-success-100 {
+    color: rgb(255, 225, 0);
+    font-size: 12px;
+}
+
+.img-max-height {
+    max-height: 10rem;
+    width: 100%; /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    object-fit: cover; /* Corta la imagen para que mantenga la proporción */
+}
